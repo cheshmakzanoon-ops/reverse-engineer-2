@@ -1,0 +1,8 @@
+namespace GME;
+
+public enum ITMG_MIC_PERMISSION
+{
+	ITMG_PERMISSION_GRANTED,
+	ITMG_PERMISSION_Denied,
+	ITMG_PERMISSION_NotDetermined
+}

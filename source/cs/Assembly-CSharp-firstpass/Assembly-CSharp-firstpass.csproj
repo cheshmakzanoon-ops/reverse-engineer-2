@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>decrypted_dlls/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>decrypted_dlls/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>decrypted_dlls/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>decrypted_dlls/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>decrypted_dlls/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>decrypted_dlls/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>decrypted_dlls/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>decrypted_dlls/DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseUtils">
+      <HintPath>decrypted_dlls/BaseUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

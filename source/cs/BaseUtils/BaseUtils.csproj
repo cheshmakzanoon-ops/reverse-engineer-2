@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BaseUtils</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="XLuaRuntime">
+      <HintPath>decrypted_dlls/XLuaRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>decrypted_dlls/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>decrypted_dlls/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdNetNativeWrapper">
+      <HintPath>decrypted_dlls/ZstdNetNativeWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DefinesRuntime">
+      <HintPath>decrypted_dlls/DefinesRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartFox2X">
+      <HintPath>decrypted_dlls/SmartFox2X.dll</HintPath>
+    </Reference>
+    <Reference Include="BestHttp">
+      <HintPath>decrypted_dlls/BestHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>decrypted_dlls/LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>decrypted_dlls/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>decrypted_dlls/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>decrypted_dlls/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>decrypted_dlls/System.Buffers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

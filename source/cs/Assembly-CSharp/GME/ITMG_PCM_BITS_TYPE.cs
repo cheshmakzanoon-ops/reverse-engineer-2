@@ -1,0 +1,7 @@
+namespace GME;
+
+public enum ITMG_PCM_BITS_TYPE
+{
+	ITMG_PCM_BITS_TYPE_FIXED_16,
+	ITMG_PCM_BITS_TYPE_FLOAT_32
+}

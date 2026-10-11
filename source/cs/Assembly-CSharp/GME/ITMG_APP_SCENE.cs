@@ -1,0 +1,7 @@
+namespace GME;
+
+public enum ITMG_APP_SCENE
+{
+	ITMG_APP_SCENE_RTC = 2,
+	ITMG_APP_SCENE_LIVE
+}
